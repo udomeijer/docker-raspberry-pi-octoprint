@@ -13,7 +13,6 @@ RUN apt-get update \
  && cd .. && rm -rf OctoPrint-$OCTOPRINT_VERSION
 
 VOLUME /data
-WORKDIR /data
 
 EXPOSE 5000
 
